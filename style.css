@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 0 0 10px gray;
+    }
+.left{
+    background-color: grey;
+    color: white;
+    width: 35%;
+    padding: 20px;
+    text-align: centre;
+}
+.left img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 50px solid white;
+    margin: 5px;
+
+}
+
+.left h4{
+    margin: 10px 0 5px;
+}
+.contact{
+    margin-top: 20px;
+}
+.college{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.right{
+    background-color: grey;
+    color: white;
+    width: 65%;
+    padding: 30px;
+    text-align: centre;
+}
+
+.right h4{
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
